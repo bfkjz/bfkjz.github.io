@@ -13,14 +13,16 @@ categories: [Git,github]
 ## 配置Git账户  
 可以在 cmd 或者 任意文件夹内，右键 Git Bash Here
 
-```bash
-# 1.添加user.name  
+```bash  
+
+# 添加user.name  
 #git config --global user.name xxx
 git config --global user.name bfkjz
- 
-# 2.添加user.email  
-#git config --global user.email xxx@xxx.com
-git config --global user.email 94xxxxxx2@qq.com
+  
+  # 添加user.email  
+  #git config --global user.email xxx@xxx.com
+git config --global user.email 94xxxxxx2@qq.com  
+
 ```  
 最好是和github上的一致，这些信息在仓库贡献者上显示  
 
@@ -28,22 +30,28 @@ git config --global user.email 94xxxxxx2@qq.com
 
 ## 删除Git账户  
 
-```bash
-# 1.删除user.name  
+```bash    
+
+  # 删除user.name  
 git config --global --unset user.name
  
-# 2.删除user.email  
-git config --global user.email
+  # 删除user.email  
+git config --global user.email  
+
 ```    
 
 
 ## 查看Git配置信息  
-```bash
-git config --list
-#缩写
+```bash  
+
+git config --list  
+
+  # 缩写  
+  
 git config -l
 
-#结尾卡在“END”，输入 q  退出
+#结尾卡在“END”，输入 q  退出  
+
 ```   
   
   
@@ -86,12 +94,13 @@ git push origin master     #推送到master分支
   
 
 ## git remote查看远程仓库信息  
-```bash  
+```bash 
+
 git remote -v  
 
 ```    
 ## git remote绑定远程仓库  
-```bash
+```bash  
 #git remote add 命名 地址  
 git remote add origin https://ghp_xxxxxxxxxxxxxxxxxxxx@github.com/bfkjz/bfkjz.github.io.git
 ```   
@@ -101,12 +110,46 @@ git remote add origin https://ghp_xxxxxxxxxxxxxxxxxxxx@github.com/bfkjz/bfkjz.gi
 git remote rename origin newname
 ```   
 ## git remote删除远程仓库  
-```bash
+```bash  
+
 #git remote remove 命名 
-git remote remove origin
+git remote remove origin  
+
 ```   
 ## git remote推送远程仓库  
-```bash
+```bash  
+
 #git remote 命名 分支  
-git push origin master
+git push origin master  
+
 ```   
+
+## 从远程仓库获取最新版本到本地  
+```bash  
+# 拉取master分支到newVersion分支
+git fetch origin master:newVersion
+
+```   
+
+## 比较本地的仓库和远程仓库的区别
+```bash  
+# 拉取master分支到newVersion分支
+git diff newVersion  
+# 按 q 退出
+
+```   
+
+## 合并newVerison分支到master分支
+```bash  
+
+git merge newVersion
+
+```   
+
+## 删除newVerison分支
+```bash  
+
+git branch -d newVersion
+
+``` 
+
