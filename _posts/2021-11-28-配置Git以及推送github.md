@@ -16,7 +16,8 @@ categories: [Git,github]
 ```bash  
 
 # 添加user.name  
-#git config --global user.name xxx
+#git config --global user.name xxx  
+
 git config --global user.name bfkjz
   
   # 添加user.email  
@@ -44,12 +45,9 @@ git config --global user.email
 ## 查看Git配置信息  
 ```bash  
 
-git config --list  
-
+git config --list
   # 缩写  
-  
 git config -l
-
 #结尾卡在“END”，输入 q  退出  
 
 ```   
