@@ -115,3 +115,14 @@ html.dark #links_list li p a{
 html.dark #links_list li p{
    color: #8b949e !important;
 }
+
+html.dark ul.list-search li{
+   background: #333333 !important;
+}
+html.dark ul.list-search li p a{
+   background: #333333 !important;
+   color: #c9d1d9 !important;
+}
+html.dark ul.list-search li p{
+   color: #8b949e !important;
+}
