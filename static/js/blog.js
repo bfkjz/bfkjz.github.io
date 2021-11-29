@@ -1,12 +1,12 @@
 // 打印主题标识,请保留出处
 ;(function () {
   var style1 = 'background:#4BB596;color:#ffffff;border-radius: 2px;'
-  var style1.2 = 'background:#6695e2;color:#ffffff;border-radius: 2px;'
+  var style3 = 'background:#6695e2;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
   var author = ' TMaize'
   var author2 = ' Zeb'
   var github = ' https://github.com/TMaize/tmaize-blog'
-  var github2 = ' https://github.com/TMaize/tmaize-blog'
+  var github2 = ' https://github.com/bfkjz/bf-tmaize-blog'
   var build = ' ' + blog.buildAt.substr(0, 4)
   build += '/' + blog.buildAt.substr(4, 2)
   build += '/' + blog.buildAt.substr(6, 2)
@@ -15,8 +15,8 @@
   console.info('%c Author %c' + author, style1, style2)
   console.info('%c Build  %c' + build, style1, style2)
   console.info('%c GitHub %c' + github, style1, style2)
-  console.info('%c Author %c' + author2, style1.2, style2)
-  console.info('%c GitHub %c' + github2, style1.2, style2)
+  console.info('%c Author %c' + author2, style3, style2)
+  console.info('%c GitHub %c' + github2, style3, style2)
 })()
 
 /**
