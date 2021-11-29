@@ -4,8 +4,8 @@
   var style3 = 'background:#6695e2;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
   var author = ' TMaize'
-  var author2 = ' Zeb'
   var github = ' https://github.com/TMaize/tmaize-blog'
+  var author2 = ' Zeb'
   var github2 = ' https://github.com/bfkjz/bf-tmaize-blog'
   var build = ' ' + blog.buildAt.substr(0, 4)
   build += '/' + blog.buildAt.substr(4, 2)
