@@ -15,12 +15,12 @@ categories: [Git,github]
 
 可以在 cmd 或者 任意文件夹内，右键 Git Bash Here  
 ```c
-/*  添加user.name 
-git config --global user.name xxx  */
+/*  添加user.name */
+/*  git config --global user.name xxx  */
 git config --global user.name bfkjz  
   
-/*  添加user.email  
-git config --global user.email xxx@xxx.com  */
+/*  添加user.email */   
+/*  git config --global user.email xxx@xxx.com  */
 git config --global user.email 94xxxxxx2@qq.com
 ```  
 
