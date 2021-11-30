@@ -1,32 +1,28 @@
 ---
 layout: mypost
-title: 关于我
+title: 关于
 ---
 
-> Hello 陌生人，欢迎访问 TMaize Blog
+> Hello，欢迎访问 缤纷科技站
 
-该博客托管于 GitHub Page，国内默认解析到腾讯云，以保证国内外的访问速度。留言页面使用腾讯的“吐个槽”，另外使用的腾讯的 MTA 分析工具统计访问量（下线了）
+## 关于博客  
 
-主题是自己写的，见[tmaize-blog](https://github.com/TMaize/tmaize-blog)，喜欢的话可以给个小星星。另外欢迎添加友链，在[留言板](chat.html)留言即可
+该博客托管于 GitHub Page，主题是 [bf-tmaize-blog](https://github.com/bfkjz/bf-tmaize-blog) 修改自 TMaize 的 [tmaize-blog](https://github.com/TMaize/tmaize-blog)，喜欢的话可以给个小星星。  
+另外欢迎添加友链，有什么问题可以在[留言板](chat.html)留言即可
 
-## 相关技能
+## 免责声明  
+  - 本站属于个人博客网站，本着分开放互享的原则，本站的内容均为站长提供、网友推荐、互联网整理而来，所发布软件的文章仅限用于学习和研究使用，不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。  
+  - 本站信息来自网络，版权争议与本站无关如有侵犯您的版权，请及时联系我，本站将及时纠正。  
+  - 本站内容不保证其完整性、正确性，但是我会尽最大努力去确保提供信息的完整性及正确性，且不对因信息的不正确或遗漏导致的任何损失或损害承担责任。  
+  - 对由于使用本站所产生的任何直接、间接或偶然性的损失或破坏，无论该损失或破坏是否源于疏忽、违约、诽谤、侵权甚至电脑病毒等原因造成的，本网站概不负责，亦不负任何法律责任。  
+  - 本网站所有内容（包括但不限于网络，素材、图片、音频、视频），其版权均归原作者所有，在转载有关文章时务必尊重该文章的著作权，保留其来源，并自负版权等法律责任。  
+  - 本声明未涉及的问题参见国家有关法律法规，当本声明与国家法律法规冲突时，以国家法律法规为准。  
+  - 本站文章内容，如果来源于互联网，我们会标明其来源，如果属于本站原创整理互联网资料，请您转载或者使用该文章时尊重本站及其互联网作者的著作权，注明其来源。  
+  - 互联网的本质是自由与分享，我们真诚的希望，本站的每一份正能量能带给正在访问本网站的您提供有效的帮助，并且能在互联网自由传播。希望大家多多支持本站。
 
-- 熟悉 JavaScript 语言， 熟练使用 Vue 全家桶,jQuery 等前端框架
-
-- 熟悉 Java，NodeJs,Go 等后端语言
-
-- 后端框架 Spring，Hibernate，JFinal，Mybatis 略有了解
-
-- 数据库方面能熟练使用 MySQL,Oracle，MongoDB
-
-- Linux 的简单使用，各种服务的搭建
-
-- 能够使用 Git/SVN 对代码版本进行控制
-
-## 联系我
-
-- QQ&nbsp;&nbsp;&nbsp;&nbsp;: 1772314831
-
-- Email&nbsp;: [tmaize@qq.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=YBQNAQkaBSAREU4DDw0)
-
-- GitHub: [https://github.com/tmaize](https://github.com/tmaize)
+## 联系我  
+  
+- 公众号：缤纷科技站  
+  ![缤纷科技站](https://cdn.jsdelivr.net/gh/bfkjz/image/img/20210127135350.png)  
+  
+- QQ邮箱：949220782@qq.com
