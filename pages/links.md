@@ -3,7 +3,7 @@ layout: mypost
 title: 友情链接
 ---
 
-欢迎各位朋友与我建立友链，如需友链请到[金山文档( Wps Office )](chat.html)提交表单，我看到表单后会添加上的，本站的友链信息如下
+欢迎各位朋友与我建立友链，如需友链请到[金山文档( Wps Office )](https://f.wps.cn/w/UZUFVIu7)提交表单，我看到表单后会添加上的，本站的友链信息如下
 
 ```
 名称：{{ site.title }}
