@@ -70,6 +70,9 @@
     padding: 3px 7px;
     border-bottom: none;
     margin: 2px;
+    display: -webkit-inline-box;
+    display: inline-block;
+    margin: 5px;
 }
 
 .page-search #search-input {
