@@ -3,6 +3,10 @@
   line-height: 2;
   word-break: break-all;
   flex: 1 0 auto;
+  padding: 10px 25px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 0px 20px rgb(0 0 0 / 5%);
 }
 .page-post .title {
   font-size: 18px;
