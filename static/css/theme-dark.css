@@ -40,6 +40,9 @@ html.dark .list-post li img {
 html.dark .hover-underline:after {
   background-color: #c9d1d9;
 }
+html.dark .page-post {
+  background: #333333;
+}
 html.dark .page-post .title {
   color: #ffffff;
 }
