@@ -114,6 +114,7 @@ html.dark #tags_box a{
 
 html.dark #links_list li{
    background: #333333 !important;
+   box-shadow: 1px 0px 15px rgb(22 27 34 / 47%);
 }
 html.dark #links_list li p a{
    background: #333333 !important;
