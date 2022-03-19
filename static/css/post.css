@@ -172,6 +172,7 @@ div#tags_box a{
   transition: all 0.5s;
   flex-direction: column;
   width: 35%;
+  box-shadow: 1px 0px 15px rgb(22 27 34 / 8%);
 }
 @media screen and (max-width: 560px) {
   .page-post {
