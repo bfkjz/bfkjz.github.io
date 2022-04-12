@@ -31,7 +31,12 @@ html.dark .list-post li .date {
   color: #8b949e;
 }
 html.dark .list-post li .categories a {
-  color: #8b949e;
+    color: rgb(194 223 251 / 50%);
+    background: rgb(130 140 151 / 50%);
+    border-radius: 3px;
+    padding: 3px 7px;
+    border-bottom: none;
+    margin: 2px;
 }
 html.dark .list-post li img {
   background: #5a5a5a;
