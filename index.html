@@ -17,8 +17,8 @@ title: 首页
           <div class="itemcontent">
             <div class="title">
               <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+              <div class="excerpt">{{ post.excerpt }}</div>
             </div>
-            <div class="excerpt">{{ post.title }}</div>
             <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
           </div>
           <div class="categories">
