@@ -13,10 +13,11 @@ title: 首页
       <ul>
     {%- endif %}
         <li>
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABfUlEQVRIie2Vvy4EURSHvzP3ZjZCbC8SjUKyCBqewAtIqPwJ4gFkgoqEhqi0/hSympXwGjRCyIZiGxL63azITlxHwSw2WWKGiq86J3fu97tzmiNm/34G1XWgme9RAgncSOMWAAcPbca5HZQB4MiJmWK44caLKefljq5Hzau8R2AT6DPqtgG8mPKIdLVS6Rdl93GkaVZgF+gHsAnkNeixChM2V/YUxhRu4OUPSgmsxahw1kwDJwqTCncCnTZXXrMgwess0/U9deQqQbUbarh2MBi1Nldee3rX/1MXyefzfmhSK8AooIpmUy5czGQy4U8E2IrxlwXmqonIfMX4AAsAG3uH5wpdsV4PF1aQsdoDDxmPAkBXUemOE4DouZxeFW6Blpqj296O9tZY0hqsollB5j8GazaqE48o5cLFivERZBRA0az/FC69fZZsRLHu/S3k7LIwo0LcpfMZJYRATq8KxV+QRxSTbrSvSHu/KAeSb7SvKHoIAe9W30/KEQ2eARYAhceey6GZAAAAAElFTkSuQmCC">
-          <div style="flex-grow: 1;">
+          <img src="{{ post.title }}">
+          <div class="item_content">
             <div class="title">
               <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+              <div class="excerpt"> {{ content }} </div>
             </div>
             <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
           </div>
