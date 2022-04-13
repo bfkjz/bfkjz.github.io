@@ -57,11 +57,15 @@
     white-space: normal;
     word-break: break-all;
     margin: 5px 0;
+    height: 35px;
+    position: relative;
 }
 
 .list-post li .excerpt * {
     font-size: 14px !important;
     font-weight: 500 !important;
+    position: absolute;
+    width: 100%;
 }
 
 .list-post li .categories {
@@ -186,6 +190,7 @@
   }
   .list-post li .excerpt {
     margin: 0;
+    width: 100%;
   }
   .list-post > h2 {
     padding: 10px 0;
