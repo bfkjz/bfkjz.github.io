@@ -59,6 +59,11 @@
     margin: 5px 0;
 }
 
+.list-post li .excerpt * {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
 .list-post li .categories {
   flex-shrink: 0;
   padding: 3px 0;
