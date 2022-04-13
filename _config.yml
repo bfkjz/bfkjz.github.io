@@ -29,6 +29,10 @@ jsdelivr: 'https://cdn.jsdelivr.net/gh/bfkjz/bfkjz.github.io'
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://support.qq.com/products/325083
 
+# 申请友链表单显示名称、地址
+linksName: 金山文档( Wps Office )
+linksUrl: https://f.wps.cn/w/UZUFVIu7
+
 # 菜单
 menu:
   - title: 首页
