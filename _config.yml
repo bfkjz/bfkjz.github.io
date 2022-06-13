@@ -23,8 +23,9 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 domainUrl: 'https://bfkjz.github.io'
 baseurl: ''
 
-# 使用jsdelivr加速js和css文件
-jsdelivr: 'https://cdn.jsdelivr.net/gh/bfkjz/bfkjz.github.io'
+# 使用jsdelivr加速js和css文件'https://cdn.jsdelivr.net/gh/bfkjz/bfkjz.github.io'
+jsdelivr: 'https://cdn.staticaly.com/gh/bfkjz/bfkjz.github.io'
+
 
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://support.qq.com/products/325083
