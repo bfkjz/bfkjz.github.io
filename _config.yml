@@ -24,7 +24,7 @@ domainUrl: 'https://bfkjz.github.io'
 baseurl: ''
 
 # 使用jsdelivr加速js和css文件'https://cdn.jsdelivr.net/gh/bfkjz/bfkjz.github.io'
-jsdelivr: 'https://cdn.staticaly.com/gh/bfkjz/bfkjz.github.io'
+jsdelivr: 'https://ghproxy.com/https://raw.githubusercontent.com/bfkjz/bfkjz.github.io/master'
 
 
 # 吐个槽地址，会在chat页面中重定向到该地址
