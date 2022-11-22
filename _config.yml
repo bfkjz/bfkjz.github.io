@@ -27,7 +27,10 @@ baseurl: ''
 jsdelivr: 'https://cdn.staticaly.com/gh/bfkjz/bfkjz.github.io/master'
 
 #设置上海时区，解决当天的post不显示问题
-timezone: Asia/Shanghai
+timezone: Asia/Shanghai  
+
+#处理未来时间的post
+future: true
 
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://support.qq.com/products/325083
