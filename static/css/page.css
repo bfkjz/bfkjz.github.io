@@ -31,7 +31,7 @@
   width: auto;
   flex-grow: 1;
   padding: 4px 0;
-  white-space: nowrap;
+/*   white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -86,7 +86,7 @@
 }
 .list-post li img{
   margin: 0 20px 0 0;
-  height: 100%;
+  height: 85%;
   background: #fff;
   border-radius: 4px;
 }
@@ -207,5 +207,8 @@
   }
   .list-category div a {
     font-size: 14px;
+  }
+  .list-post li .excerpt {
+    font-size: 12px;
   }
 }
