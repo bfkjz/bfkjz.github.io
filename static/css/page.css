@@ -191,6 +191,7 @@
   .list-post li .excerpt {
     margin: 0;
     width: 100%;
+    font-size: 12px;
   }
   .list-post > h2 {
     padding: 10px 0;
@@ -208,7 +209,7 @@
   .list-category div a {
     font-size: 14px;
   }
-  .list-post li .excerpt {
+  .list-post li .excerpt * {
     font-size: 12px;
   }
 }
