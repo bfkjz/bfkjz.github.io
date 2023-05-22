@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: 【技巧】利用js开启stable-diffusion-webui恢复上一次任务进度按钮
-excerpt: 利用js开启stable-diffusion-webui恢复上一次任务进度按钮
+title: 【技巧】利用浏览器书签开启stable-diffusion-webui恢复上一次任务进度按钮
+excerpt: 利用浏览器书签开启stable-diffusion-webui恢复上一次任务进度按钮
 categories: [stable-diffusion-webui,ai绘画]
 imgurl: 
 ---  
