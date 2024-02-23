@@ -23,8 +23,8 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 domainUrl: 'https://bfkjz.github.io'
 baseurl: ''
 
-# 使用jsdelivr加速js和css文件'https://cdn.jsdelivr.net/gh/bfkjz/bfkjz.github.io'
-jsdelivr: 'https://cdn.staticaly.com/gh/bfkjz/bfkjz.github.io/master'
+# 使用jsdelivr加速js和css文件'https://cdn.staticaly.com/gh/bfkjz/bfkjz.github.io/master'
+jsdelivr: 'https://cdn.jsdelivr.net/gh/bfkjz/bfkjz.github.io'
 
 #设置上海时区，解决当天的post不显示问题
 timezone: Asia/Shanghai  
